@@ -1,0 +1,61 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 15
+VisualStudioVersion = 15.0.26009.0
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SeaBattle.WebApi", "src\SeaBattle.WebApi\SeaBattle.WebApi\SeaBattle.WebApi.csproj", "{D841579F-9962-42C4-B213-BBBA3BCFE988}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "src", "src", "{918B0FDB-E1D5-475B-A1C0-A945D88E0B99}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "test", "test", "{629C1A3B-7F6F-4002-8723-2D4AB719C92E}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Solution Items", "Solution Items", "{ED286AEE-EBEB-488B-BD4A-2014F9526476}"
+	ProjectSection(SolutionItems) = preProject
+		global.json = global.json
+	EndProjectSection
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SeaBattle.Engine", "src\SeaBattle.Engine\SeaBattle.Engine.csproj", "{C6B4B4A6-439F-494B-9415-308EB781C9B5}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Debug|x64 = Debug|x64
+		Debug|x86 = Debug|x86
+		Release|Any CPU = Release|Any CPU
+		Release|x64 = Release|x64
+		Release|x86 = Release|x86
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{D841579F-9962-42C4-B213-BBBA3BCFE988}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{D841579F-9962-42C4-B213-BBBA3BCFE988}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{D841579F-9962-42C4-B213-BBBA3BCFE988}.Debug|x64.ActiveCfg = Debug|x64
+		{D841579F-9962-42C4-B213-BBBA3BCFE988}.Debug|x64.Build.0 = Debug|x64
+		{D841579F-9962-42C4-B213-BBBA3BCFE988}.Debug|x86.ActiveCfg = Debug|x86
+		{D841579F-9962-42C4-B213-BBBA3BCFE988}.Debug|x86.Build.0 = Debug|x86
+		{D841579F-9962-42C4-B213-BBBA3BCFE988}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{D841579F-9962-42C4-B213-BBBA3BCFE988}.Release|Any CPU.Build.0 = Release|Any CPU
+		{D841579F-9962-42C4-B213-BBBA3BCFE988}.Release|x64.ActiveCfg = Release|x64
+		{D841579F-9962-42C4-B213-BBBA3BCFE988}.Release|x64.Build.0 = Release|x64
+		{D841579F-9962-42C4-B213-BBBA3BCFE988}.Release|x86.ActiveCfg = Release|x86
+		{D841579F-9962-42C4-B213-BBBA3BCFE988}.Release|x86.Build.0 = Release|x86
+		{C6B4B4A6-439F-494B-9415-308EB781C9B5}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{C6B4B4A6-439F-494B-9415-308EB781C9B5}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{C6B4B4A6-439F-494B-9415-308EB781C9B5}.Debug|x64.ActiveCfg = Debug|x64
+		{C6B4B4A6-439F-494B-9415-308EB781C9B5}.Debug|x64.Build.0 = Debug|x64
+		{C6B4B4A6-439F-494B-9415-308EB781C9B5}.Debug|x86.ActiveCfg = Debug|x86
+		{C6B4B4A6-439F-494B-9415-308EB781C9B5}.Debug|x86.Build.0 = Debug|x86
+		{C6B4B4A6-439F-494B-9415-308EB781C9B5}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{C6B4B4A6-439F-494B-9415-308EB781C9B5}.Release|Any CPU.Build.0 = Release|Any CPU
+		{C6B4B4A6-439F-494B-9415-308EB781C9B5}.Release|x64.ActiveCfg = Release|x64
+		{C6B4B4A6-439F-494B-9415-308EB781C9B5}.Release|x64.Build.0 = Release|x64
+		{C6B4B4A6-439F-494B-9415-308EB781C9B5}.Release|x86.ActiveCfg = Release|x86
+		{C6B4B4A6-439F-494B-9415-308EB781C9B5}.Release|x86.Build.0 = Release|x86
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{D841579F-9962-42C4-B213-BBBA3BCFE988} = {918B0FDB-E1D5-475B-A1C0-A945D88E0B99}
+		{C6B4B4A6-439F-494B-9415-308EB781C9B5} = {918B0FDB-E1D5-475B-A1C0-A945D88E0B99}
+	EndGlobalSection
+EndGlobal
