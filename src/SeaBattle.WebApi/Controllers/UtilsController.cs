@@ -13,7 +13,7 @@ namespace SeaBattle.WebApi.Controllers
         [AllowAnonymous]
         [HttpGet("ping")]
         //http://localhost:5000/utils/ping
-        public async Task<IActionResult> Ping()
+        public IActionResult Ping()
         {
             return Ok("pong");
         }
