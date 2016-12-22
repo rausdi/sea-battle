@@ -1,6 +1,6 @@
-﻿public enum ShipType
+﻿public enum ShipType : byte
 {
-    OneDecked,
+    OneDecked = 1,
     TwoDecked,
     ThreeDecked,
     FourDecked
