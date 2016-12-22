@@ -1,8 +1,4 @@
-﻿using System;
-using System.Collections.Generic;
-using System.Text;
-
-namespace SeaBattle.Engine.Factories.Ship
+﻿namespace SeaBattle.Engine.Factories.Ship
 {
     interface IShip
     {
