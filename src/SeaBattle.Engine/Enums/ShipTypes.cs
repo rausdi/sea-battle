@@ -1,4 +1,4 @@
-﻿enum ShipType
+﻿public enum ShipType
 {
     OneDecked,
     TwoDecked,
