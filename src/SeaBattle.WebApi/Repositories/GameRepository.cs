@@ -12,7 +12,7 @@ namespace SeaBattle.WebApi.Repositories
 
         public GameRepository()
         {
-            _game = SeaBattle.Engine.Builders.GameBuuilder.Build();
+            _game = SeaBattle.Engine.Builders.GameBuilder.Build();
         }
 
         public Guid Get()

@@ -5,7 +5,7 @@ using System.Text;
 
 namespace SeaBattle.Engine.Builders
 {
-    public class GameBuuilder
+    public class GameBuilder
     {
         public static Game Build()
         {
